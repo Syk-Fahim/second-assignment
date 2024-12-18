@@ -7,9 +7,58 @@
   font-style: normal;
 }
 /* shared styles */
-
+    body{
+        background-color: black;
+        color: white;
+    }
+    .display-flex{
+        display: flex;
+    }
+    .text-white{
+        rgba(255, 255, 255, 1)
+    }
+    .text-light-white{
+        rgba(255, 255, 255, 0.5)
+    }
 /* header styles */
 /* Navbar styles */
+    .brand{
+        font-weight: 800;
+        font-style: italic;
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+        color: rgba(230, 83, 60, 1);
+    }
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navitems{
+        list-style: none;
+        margin-right: 47px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        padding: 0px 20px;
+        gap: 0.7rem;
+    }
+    .navlinks{
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 2.5rem;
+        padding: 12px;
+    }
+    #nav-btn{
+        background-color: rgba(230, 83, 60, 1);
+        border-radius: 3rem;
+        padding: 8px 20px;
+        gap: 0.7rem;
+    }
+    .navbar{
+        max-width: 1060px;
+        margin: 0 auto;
+        /* margin: 57px 190px 0px; */
+    }
 /* Banner styles */
 
 /* main styles */
